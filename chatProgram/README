@@ -1,0 +1,22 @@
+COMPILING INSTRUCTIONS
+**********************
+First, follow the instructions for server.py,
+and then complete the instructions for client.c.
+----------------------
+server.py
+----------------------
+1) Compiling:
+	chmod +x server.py
+2) Running:
+	./server.py [port number]
+3) Next, follow prompts.
+4) Type "\quit" to exit the chat
+----------------------
+client.c
+----------------------
+1) Compiling:
+	gcc -Wall client.c -o client
+2) Running:
+	./client [flip#] [port number]
+3) Next, follow prompts.
+4) Type "\quit" to exit the chat
